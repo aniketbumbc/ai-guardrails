@@ -1,0 +1,20 @@
+{
+  "name": "ai-guardrails",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.13.5",
+    "axios": "^1.18.1",
+    "dotenv": "^17.4.2",
+    "nodemailer": "^9.0.3",
+    "zod": "^4.4.3"
+  }
+}
