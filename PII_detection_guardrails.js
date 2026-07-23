@@ -96,7 +96,7 @@ const assistantAgent = new Agent({
     'as-is in your answer. Never invent real values for them.' +
     'IMPORTANT MASK MUST BE IN ***** FORM ONLY',
 
-  guardrails: [piiGuardrail],
+  inputGuardrails: [piiGuardrail],
 });
 ('');
 
