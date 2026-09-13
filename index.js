@@ -11,3 +11,5 @@ const agent = new Agent({
 const result = await run(agent, 'what is the capital of India?');
 
 console.log(result.finalOutput);
+console.log(result);
+
