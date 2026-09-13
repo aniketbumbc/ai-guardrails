@@ -7,7 +7,7 @@ const noPhoneLeak = {
   name: 'No phone leak',
   execute: async ({ agentOutput }) => {
     const text = String(agentOutput);
-    //  any 10 digit number
+    //  any 10 digit number guard rails
     const hasPhone = /\b\d{10}\b/.test(text);
     return {
       outputInfo: { hasPhone },
